@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Segunda Clase</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h2>Formulario</h2>
+    <form>
+
+        Ingrese su nombre: <br>
+        <input type="text" placeholder="Nombre">
+        <br>
+        <br>
+        Ingrese su apellido: <br>
+        <input type="text" placeholder="Apellido">
+        <br>
+        <br>
+        Fecha Nacimiento: <br>
+        <input type="date" name="date" value="2000-01-01" min="2000-01-01" max="2022-03-23">
+        <br>
+        <br>
+        Género: <br>
+        <input type="radio" name="gender" value="male">Masculino <br>
+        <input type="radio" name="gender" value="female">Femenino <br>
+        <input type="radio" name="gender" value="other" checked>Otro <br>
+        <br>
+        País: <br>
+        <select name="country" id="country">
+            <option value="">Seleccione</option>
+            <option value="1">Argentina</option>
+            <option value="2">Brasil</option>
+            <option value="3">Chile</option>
+        </select>
+        <br>
+        <br>
+        Deje su reseña: <br>
+        <textarea name="review" id="" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button type="submit">Guardar</button>
+        <button type="reset">Restablecer campos</button>
+
+    </form>
+
+</body>
+
+</html>
